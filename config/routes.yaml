@@ -1,3 +1,12 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+homepage:
+  path: /
+  controller: App\Controller\DefaultController::index
+
+signup:
+  path: /signup
+  controller: App\Controller\DefaultController::signup
+
